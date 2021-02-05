@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Todo from './components/todo/Todo';
+import TodoList from './components/todo-list/TodoList';
 import reportWebVitals from './reportWebVitals';
 
 import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./assets/sass/styles.scss";
 
 
 ReactDOM.render(
   <React.StrictMode>
-    {/* <Todo /> */}
+    <TodoList />
   </React.StrictMode>,
   document.getElementById('root')
 );
